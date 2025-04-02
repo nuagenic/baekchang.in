@@ -1,0 +1,10 @@
+title: Project Thumbnail
+
+accept:
+  mime: image/jpeg
+  extension: jpg, jpeg, png, webp
+
+fields:
+  alt:
+    label: Alt Text
+    type: text

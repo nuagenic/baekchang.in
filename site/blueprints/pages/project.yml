@@ -1,0 +1,40 @@
+title: Project
+
+status:
+  listed: true
+
+fields:
+  title:
+    label: Title
+    type: text
+    required: true
+
+  sliceFrom:
+    label: Slice From
+    type: number
+
+  sliceTo:
+    label: Slice To
+    type: number
+
+  description:
+    label: Description
+    type: textarea
+    required: true
+
+  date:
+    label: Date
+    type: date
+    required: true
+    time: false
+
+  thumbnail:
+    label: Thumbnail Image
+    type: files
+    layout: cards
+    multiple: false
+    image:
+      cover: true
+    query: page.images
+    uploads:
+      template: project-thumbnail

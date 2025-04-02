@@ -1,0 +1,12 @@
+title: Home
+
+fields:
+  title:
+    label: Title
+    type: text
+    required: true
+
+  description:
+    label: Description
+    type: textarea
+    required: true

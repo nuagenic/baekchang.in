@@ -1,0 +1,5 @@
+Uuid: u9VgqbQOxsXrB3bL
+
+----
+
+Template: project-thumbnail
